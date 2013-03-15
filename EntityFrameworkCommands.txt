@@ -1,0 +1,36 @@
+//http://coding.abel.nu/2012/03/ef-migrations-command-reference/#Enable-Migrations
+
+Enable-Migrations [-EnableAutomaticMigrations] [[-ProjectName] <String>]
+  [-Force] [<CommonParameters>]
+
+Add-Migration [-Name] <String> [-Force]
+  [-ProjectName <String>] [-StartUpProjectName <String>]
+  [-ConfigurationTypeName <String>] [-ConnectionStringName <String>]
+  [-IgnoreChanges] [<CommonParameters>]
+ 
+Add-Migration [-Name] <String> [-Force]
+  [-ProjectName <String>] [-StartUpProjectName <String>]
+  [-ConfigurationTypeName <String>] -ConnectionString <String>
+  -ConnectionProviderName <String> [-IgnoreChanges] [<Common Parameters>]
+
+Update-Database [-SourceMigration <String>]
+  [-TargetMigration <String>] [-Script] [-Force] [-ProjectName <String>]
+  [-StartUpProjectName <String>] [-ConfigurationTypeName <String>]
+  [-ConnectionStringName <String>] [<CommonParameters>]
+ 
+Update-Database [-SourceMigration <String>] [-TargetMigration <String>]
+  [-Script] [-Force] [-ProjectName <String>] [-StartUpProjectName <String>]
+  [-ConfigurationTypeName <String>] -ConnectionString <String>
+  -ConnectionProviderName <String> [<CommonParameters>]
+
+Get-Migrations [-ProjectName <String>] [-StartUpProjectName <String>]
+  [-ConfigurationTypeName <String>] [-ConnectionStringName <String>]
+  [<CommonParameters>]
+ 
+Get-Migrations [-ProjectName <String>] [-StartUpProjectName <String>]
+  [-ConfigurationTypeName <String>] -ConnectionString <String>
+  -ConnectionProviderName <String> [<CommonParameters>]
+
+install-package EntityFramework
+Add-Migration Initial -Project Data
+Update-Database -Verbose -Project Data
