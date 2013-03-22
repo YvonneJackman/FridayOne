@@ -1,0 +1,9 @@
+new Data.Model.Company { CompanyId = 1, CompanyName = "BREADALBANE CANOE CLUB", CompanyApproved = true, CompanyContactName = "Unspecified", CompanyAddress = "ABERFELDY", CharityNumber = "0", CompanyDetails = "Breadalbane Canoe Club is an active and inclusive club promoting both competitive and recreational paddling. We encourage participation at all levels and work to protect, improve and promote responsible paddle sports.", CompanyPostcode = "BD23 1PT" },
+
+new Data.Model.Company { CompanyId = 2, CompanyName = "RNLI", CompanyApproved = true, CompanyContactName = "Unspecified", CompanyAddress = "London", CharityNumber = "0" CompanyDetails = "The RNLI is the charity that saves lives at sea", CompanyPostcode = "" },            
+
+new Data.Model.Company { CompanyId = 3, CompanyName = "St Stephens Primary School, Blairgowrie", CompanyApproved = true, CompanyContactName = "Unspecified", CompanyAddress = "Coupar Angus", CharityNumber = "0" CompanyDetails = "Fund-raising for school projects", CompanyPostcode = "" },            
+
+new Data.Model.Company { CompanyId = 4, CompanyName = "Whizz Kidz", CompanyApproved = true, CompanyContactName = "Unspecified", CompanyAddress = "London", CharityNumber = "0" CompanyDetails = "Whizz-Kidz provides disabled children with the essential wheelchairs and other mobility equipment they need to lead fun and active childhoods.", CompanyPostcode = "" },      
+
+new Data.Model.Company { CompanyId = 5, CompanyName = "Breast Cancer Care", CompanyApproved = true, CompanyContactName = "Unspecified", CompanyAddress = "Scotland", CharityNumber = "0" CompanyDetails = "http://www.breastcancercare.org.uk/ Follow Breast Cancer Care Scotland on Twitter @BccareScot", CompanyPostcode = "" },      
